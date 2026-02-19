@@ -1,6 +1,6 @@
 # slowroads
 
-A lightweight, browser-based endless driving experience inspired by slowroads.io.
+A lightweight, browser-based endless riding experience inspired by slowroads.io.
 
 ## Run locally
 
@@ -15,6 +15,8 @@ Then open <http://localhost:4173>.
 ## Features
 
 - Endless pseudo-3D road rendering with smooth forward motion.
-- Keyboard steering and speed control.
+- Three ride types: car, horse, and bike.
+- Different controls for each ride type.
+- Multiple camera modes: first-person, chase cam, and top-down.
 - Day, sunset, and night scenery themes.
 - Responsive fullscreen canvas with a compact HUD.
