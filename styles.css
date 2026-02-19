@@ -1,0 +1,75 @@
+:root {
+  color-scheme: dark;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #090f1a;
+}
+
+#world {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+}
+
+.hud {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  backdrop-filter: blur(8px);
+  background: rgba(8, 16, 31, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 12px;
+  padding: 0.9rem 1rem;
+  color: #ecf4ff;
+  max-width: min(88vw, 340px);
+}
+
+.hud h1 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.hud p {
+  margin: 0.3rem 0 0.75rem;
+  opacity: 0.82;
+  font-size: 0.92rem;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 0.7rem;
+  font-size: 0.8rem;
+  margin-bottom: 0.7rem;
+  opacity: 0.9;
+}
+
+kbd {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-bottom-width: 2px;
+  border-radius: 5px;
+  padding: 0.1rem 0.3rem;
+  font-family: inherit;
+}
+
+label {
+  display: grid;
+  gap: 0.3rem;
+  font-size: 0.83rem;
+}
+
+select {
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  background: rgba(255, 255, 255, 0.09);
+  color: #f4f8ff;
+  padding: 0.45rem;
+}
