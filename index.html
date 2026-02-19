@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slow Roads Inspired Drive</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas id="world" aria-label="Endless driving scene"></canvas>
+
+    <section class="hud" aria-live="polite">
+      <h1>Slow Roads Inspired</h1>
+      <p>Choose your ride and camera view for a relaxed endless trip.</p>
+
+      <label>
+        Vehicle
+        <select id="vehiclePicker">
+          <option value="car">Car</option>
+          <option value="horse">Horse</option>
+          <option value="bike">Bike</option>
+        </select>
+      </label>
+
+      <label>
+        Camera view
+        <select id="viewPicker">
+          <option value="fpv">First-person</option>
+          <option value="chase">Chase cam</option>
+          <option value="top">Top-down</option>
+        </select>
+      </label>
+
+      <label>
+        Scenery
+        <select id="themePicker">
+          <option value="day">Day</option>
+          <option value="sunset">Sunset</option>
+          <option value="night">Night</option>
+        </select>
+      </label>
+
+      <div class="controls" id="controlHints"></div>
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>

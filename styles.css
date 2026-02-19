@@ -1,0 +1,68 @@
+:root {
+  color-scheme: dark;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #090f1a;
+}
+
+#world {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+}
+
+.hud {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  backdrop-filter: blur(8px);
+  background: rgba(8, 16, 31, 0.52);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 12px;
+  padding: 0.9rem 1rem;
+  color: #ecf4ff;
+  max-width: min(92vw, 360px);
+  display: grid;
+  gap: 0.65rem;
+}
+
+.hud h1 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.hud p {
+  margin: 0;
+  opacity: 0.82;
+  font-size: 0.9rem;
+}
+
+label {
+  display: grid;
+  gap: 0.3rem;
+  font-size: 0.83rem;
+}
+
+select {
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  background: rgba(255, 255, 255, 0.09);
+  color: #f4f8ff;
+  padding: 0.45rem;
+}
+
+.controls {
+  font-size: 0.8rem;
+  line-height: 1.4;
+  opacity: 0.9;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding-top: 0.55rem;
+}
